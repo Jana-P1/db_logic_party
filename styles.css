@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&family=Roboto:wght@100&family=Rubik+Pixels&display=swap');
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body {
+  margin: 10px;
+  padding: 15px;
+}
+
+#title {
+  font-family: 'Rubik Pixels', cursive;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+#buttons {
+  max-width: 100%;
+  border: 2px red solid;
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  position: sticky;
+  padding: 3px;
+  justify-content: space-between;
+  margin: 2px;
+
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.btn {
+  max-width: auto;
+  margin: 2px;
+  font-size: 2rem;  
+}
+
+#word-container {
+  border: 2px solid red;
+  max-width: auto;
+  margin: 10px 3px;
+  padding: 5px;
+}
+
