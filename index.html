@@ -16,20 +16,28 @@
   <h1 id="title">DB Logic Party!</h1>
   <section class="content">
     <div id="container">
-      <h2>Please select all words that you want to appear in the list below</h2>
+      <h2>Please select all words that you want to appear in the list below:</h2>
       <div id=form>
         <form action="">
           <div id="buttons">
-            <button class="btn btn-primary btn-lg" id="poetry" type="submit">poetry</button>
-            <button class="btn btn-primary btn-lg" id="surprise" type="submit">surprise</button>
-            <button class="btn btn-primary btn-lg" id="floral" type="submit">floral</button>
-            <button class="btn btn-primary btn-lg" id="princess" type="submit">princess</button>
-            <button class="btn btn-primary btn-lg" id="hero" type="submit">hero</button>
-            <button class="btn btn-primary btn-lg" id="superpower" type="submit">superpower</button>
-            <button class="btn btn-primary btn-lg" id="sour" type="submit">sour</button>
-            <button class="btn btn-primary btn-lg" id="glamorous" type="submit">glamorous</button>
+            <button class="btn btn-primary btn-lg words" id="poetry" type="submit">poetry</button>
+            <button class="btn btn-primary btn-lg words" id="surprise" type="submit">surprise</button>
+            <button class="btn btn-primary btn-lg words" id="floral" type="submit">floral</button>
+            <button class="btn btn-primary btn-lg words" id="princess" type="submit">princess</button>
+            <button class="btn btn-primary btn-lg words" id="hero" type="submit">hero</button>
+            <button class="btn btn-primary btn-lg words" id="superpower" type="submit">superpower</button>
+            <button class="btn btn-primary btn-lg words" id="sour" type="submit">sour</button>
+            <button class="btn btn-primary btn-lg words" id="glamorous" type="submit">glamorous</button>
           </div>
-          <div id="word-container"></div>
+          <div id="my_words">
+            <h2>My favorite words:</h2>
+            <div id="container2"></div>
+          </div>
+          <div class="submit">
+            <button id="submit" class="btn btn-success btn-lg" type="submit">Submit</button>
+            <button id="cancel" class="btn btn-danger btn-lg" type="submit">Cancel</button>
+          </div>
+          <div id="result"></div>
           
         </form>
       </div>

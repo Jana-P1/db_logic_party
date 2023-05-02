@@ -9,8 +9,10 @@ const selectedWords = []
 
 // A variable for the DOM representing words in the initWords arr
 const btnContainer = document.getElementById("buttons")
-const btns = document.querySelectorAll(".btn")
-const myWords = document.getElementById("word-container")
+const btns = document.querySelectorAll(".words")
+const myWords = document.getElementById("container2")
+const result = document.getElementById("result")
+const submit = document.getElementById("submit")
 
 /** ----- EVENT HANDLER FUNCTIONS ------ */
 const selectBtn = (e) => {
@@ -34,10 +36,17 @@ const newEventListener = (e) => {
   addWordsToArr(value)
 }
 
+const submitWords = (e) => {
+  e.preventDefault()
+  console.log("selectedWords: ", "sanity check")
+
+}
+
 
 /** ------ EVENT LISTENERS --------- */
 btns.forEach(btn => btn.addEventListener("click", selectBtn))
 btns.forEach(btn => btn.addEventListener("click", newEventListener))
+submit.addEventListener("click", submitWords)
 
 
 
@@ -48,6 +57,8 @@ const addWordsToArr = (str) => {
   selectedWords.push(str)
   console.log(selectedWords)
 } 
+
+
 
 
 

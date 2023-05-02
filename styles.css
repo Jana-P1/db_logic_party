@@ -26,7 +26,7 @@ h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 3.5rem;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
 }
 #buttons {
   max-width: 100%;
@@ -54,10 +54,16 @@ h2 {
   font-size: 2rem;  
 }
 
-#word-container {
+#container2 {
   border: 2px solid red;
   max-width: auto;
   margin: 10px 3px;
   padding: 5px;
+}
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  
 }
 
