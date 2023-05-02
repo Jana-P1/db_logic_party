@@ -1,0 +1,35 @@
+
+[
+  {
+    "id": 1,
+    "word" :"poetry"
+  },
+  {
+    "id": 2,
+    "word" :"surprise"
+  },
+  {
+    "id": 3,
+    "word" :"floral"
+  },
+  {
+    "id": 4,
+    "word" :"princess"
+  },
+  {
+    "id": 5,
+    "word" :"hero"
+  },
+  {
+    "id": 6,
+    "word" :"superpower"
+  },
+  {
+    "id": 7,
+    "word" :"sour"
+  },
+  {
+    "id": 8,
+    "word" :"glamorous"
+  }
+]
